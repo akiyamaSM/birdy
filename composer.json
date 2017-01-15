@@ -1,5 +1,5 @@
 {
-    "name": "nm/birdy",
+    "name": "akiyama/nmbirdy",
     "description": "Laravel service provider for codebird-php",
     "license": "MIT",
     "keywords": ["codebird", "twitter", "laravel"],
@@ -17,5 +17,16 @@
             "NM\\Birdy\\": "src/"
         }
     },
-    "minimum-stability": "stable"
+    "minimum-stability": "stable",
+    "repositories":
+    [
+            {
+                "type": "vcs",
+                "url": "https://github.com/latelatelate/birdy"
+            }
+    ],
+    "require":
+    {
+        "nm/birdy": "dev-master"
+    }
 }
